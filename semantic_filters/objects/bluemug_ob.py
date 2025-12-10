@@ -3,9 +3,9 @@ from robosuite.models.objects import MujocoXMLObject
 import xml.etree.ElementTree as ET
 
 
-class CanObject(MujocoXMLObject):
-    def __init__(self, name="can"):
-        xml_path = "can_18/model.xml"
+class BlueMugObject(MujocoXMLObject):
+    def __init__(self, name="bluemug"):
+        xml_path = "semantic_filters//objects//Cole_Hardware_Mug_Classic_Blue//bluemug.xml"
         super().__init__(
             fname=xml_path,
             name=name,
@@ -14,3 +14,6 @@ class CanObject(MujocoXMLObject):
         )
 
 
+
+bluemug = BlueMugObject()
+print(bluemug.get_xml())

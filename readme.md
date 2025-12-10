@@ -1,0 +1,13 @@
+# Semantic Filters
+
+This repository is implementation of [Semantically Safe Robot Manipulation:
+From Semantic Scene Understanding
+to Motion Safeguards](https://arxiv.org/abs/2410.15185)
+
+This repository contains research code for simulating and visualising semantic constraints (e.g., “do not coke above the blue mug”, “keep the coke upright”) around objects such as a mug and a can, and enforcing them via CBF-based controllers.
+
+
+
+## TODO
+1. make proper readme
+2. add vision pipeline and llm code here

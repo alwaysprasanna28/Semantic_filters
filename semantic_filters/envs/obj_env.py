@@ -9,8 +9,8 @@ from robosuite.utils.mjcf_utils import new_element
 # Imports for your objects
 try:
     # from laptop_ob import LaptopObject
-    from bluemug_ob import BlueMugObject
-    from can_ob import CanObject
+    from semantic_filters.objects.bluemug_ob import BlueMugObject
+    from semantic_filters.objects.can_ob import CanObject
 except ImportError:
     pass 
 
@@ -64,3 +64,8 @@ class OBJEnv(ManipulationEnv):
         super()._reset_internal()
     def reward(self, action=None):
         return 0.0
+    
+
+
+# obj_class = OBJEnv()
+# print(obj_class.get_observables(robots="Panda"))

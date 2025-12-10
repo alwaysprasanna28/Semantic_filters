@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: semantic-filters
+Version: 0.1.0
+Summary: Semantic filters and control-barrier functions for object-centric safety.
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Semantic Filters
+
+This repository is implementation of [Semantically Safe Robot Manipulation:
+From Semantic Scene Understanding
+to Motion Safeguards](https://arxiv.org/abs/2410.15185)
+
+This repository contains research code for simulating and visualising semantic constraints (e.g., “do not coke above the blue mug”, “keep the coke upright”) around objects such as a mug and a can, and enforcing them via CBF-based controllers.
+
+
+
+---
+
+## Repository Structure
+
+```text

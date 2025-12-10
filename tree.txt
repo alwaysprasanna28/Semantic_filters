@@ -1,0 +1,148 @@
+Folder PATH listing
+Volume serial number is BA8C-5E30
+C:.
+|   pyproject.toml
+|   readme.md
+|   requirements.txt
+|   tree.txt
+|   
++---media
++---scripts
+|       teleop.py
+|       
++---semantic_filters
+|   |   __init__.py
+|   |   
+|   +---envs
+|   |   |   obj_env.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           obj_env.cpython-312.pyc
+|   |           __init__.cpython-312.pyc
+|   |           
+|   +---filters
+|   |   |   semantic_filters.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           semantic_filters.cpython-312.pyc
+|   |           __init__.cpython-312.pyc
+|   |           
+|   +---objects
+|   |   |   bluemug_ob.py
+|   |   |   can_ob.py
+|   |   |   __init__.py
+|   |   |   
+|   |   +---can_18
+|   |   |   |   model.xml
+|   |   |   |   
+|   |   |   +---collision
+|   |   |   |       model_normalized_collision_0.obj
+|   |   |   |       model_normalized_collision_1.obj
+|   |   |   |       model_normalized_collision_10.obj
+|   |   |   |       model_normalized_collision_11.obj
+|   |   |   |       model_normalized_collision_12.obj
+|   |   |   |       model_normalized_collision_13.obj
+|   |   |   |       model_normalized_collision_14.obj
+|   |   |   |       model_normalized_collision_15.obj
+|   |   |   |       model_normalized_collision_16.obj
+|   |   |   |       model_normalized_collision_17.obj
+|   |   |   |       model_normalized_collision_18.obj
+|   |   |   |       model_normalized_collision_19.obj
+|   |   |   |       model_normalized_collision_2.obj
+|   |   |   |       model_normalized_collision_20.obj
+|   |   |   |       model_normalized_collision_21.obj
+|   |   |   |       model_normalized_collision_22.obj
+|   |   |   |       model_normalized_collision_23.obj
+|   |   |   |       model_normalized_collision_24.obj
+|   |   |   |       model_normalized_collision_25.obj
+|   |   |   |       model_normalized_collision_26.obj
+|   |   |   |       model_normalized_collision_27.obj
+|   |   |   |       model_normalized_collision_28.obj
+|   |   |   |       model_normalized_collision_29.obj
+|   |   |   |       model_normalized_collision_3.obj
+|   |   |   |       model_normalized_collision_30.obj
+|   |   |   |       model_normalized_collision_31.obj
+|   |   |   |       model_normalized_collision_4.obj
+|   |   |   |       model_normalized_collision_5.obj
+|   |   |   |       model_normalized_collision_6.obj
+|   |   |   |       model_normalized_collision_7.obj
+|   |   |   |       model_normalized_collision_8.obj
+|   |   |   |       model_normalized_collision_9.obj
+|   |   |   |       
+|   |   |   \---visual
+|   |   |           image0.png
+|   |   |           material.mtl
+|   |   |           material_0.jpeg
+|   |   |           model_normalized_0.obj
+|   |   |           
+|   |   +---Cole_Hardware_Mug_Classic_Blue
+|   |   |       bluemud_meshdata.md
+|   |   |       bluemug.xml
+|   |   |       model.obj
+|   |   |       model.xml
+|   |   |       model_collision_0.obj
+|   |   |       model_collision_1.obj
+|   |   |       model_collision_10.obj
+|   |   |       model_collision_11.obj
+|   |   |       model_collision_12.obj
+|   |   |       model_collision_13.obj
+|   |   |       model_collision_14.obj
+|   |   |       model_collision_15.obj
+|   |   |       model_collision_16.obj
+|   |   |       model_collision_17.obj
+|   |   |       model_collision_18.obj
+|   |   |       model_collision_19.obj
+|   |   |       model_collision_2.obj
+|   |   |       model_collision_20.obj
+|   |   |       model_collision_21.obj
+|   |   |       model_collision_22.obj
+|   |   |       model_collision_23.obj
+|   |   |       model_collision_24.obj
+|   |   |       model_collision_25.obj
+|   |   |       model_collision_26.obj
+|   |   |       model_collision_27.obj
+|   |   |       model_collision_28.obj
+|   |   |       model_collision_29.obj
+|   |   |       model_collision_3.obj
+|   |   |       model_collision_30.obj
+|   |   |       model_collision_31.obj
+|   |   |       model_collision_4.obj
+|   |   |       model_collision_5.obj
+|   |   |       model_collision_6.obj
+|   |   |       model_collision_7.obj
+|   |   |       model_collision_8.obj
+|   |   |       model_collision_9.obj
+|   |   |       texture.png
+|   |   |       _Index_of_Cole_Hardware_Mug_Classic_Blue.md
+|   |   |       
+|   |   \---__pycache__
+|   |           bluemug_ob.cpython-312.pyc
+|   |           can_ob.cpython-312.pyc
+|   |           __init__.cpython-312.pyc
+|   |           
+|   +---viz
+|   |   |   cbf_viz.py
+|   |   |   __init__.py
+|   |   |   
+|   |   \---__pycache__
+|   |           cbf_viz.cpython-312.pyc
+|   |           __init__.cpython-312.pyc
+|   |           
+|   \---__pycache__
+|           __init__.cpython-312.pyc
+|           
++---semantic_filters.egg-info
+|       dependency_links.txt
+|       PKG-INFO
+|       SOURCES.txt
+|       top_level.txt
+|       
+\---__pycache__
+        bluemug_ob.cpython-310.pyc
+        can_ob.cpython-310.pyc
+        cbf_viz.cpython-310.pyc
+        obj_env.cpython-310.pyc
+        semantic_filters.cpython-310.pyc
+        

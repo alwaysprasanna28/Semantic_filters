@@ -1,0 +1,21 @@
+[project]
+name = "semantic-filters"
+version = "0.1.0"
+description = "Semantic filters and control-barrier functions for object-centric safety."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+# We are using a flat layout: package lives directly under the project root
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+# Only include the semantic_filters package and its subpackages
+include = ["semantic_filters", "semantic_filters.*"]
+# Explicitly exclude any other top-level dirs that setuptools might see
+exclude = ["media", "media.*"]

@@ -4,12 +4,12 @@ from robosuite import load_composite_controller_config
 from robosuite.devices import Keyboard
 from robosuite.wrappers import VisualizationWrapper
 
-from semantic_filters import SemanticSafetyFilter
-from cbf_viz import CBFRealtimePlot  
+from semantic_filters.filters.semantic_filters import SemanticSafetyFilter
+from semantic_filters.viz.cbf_viz import CBFRealtimePlot  
 from robosuite.environments.base import register_env
 
 try:
-    from obj_env import OBJEnv
+    from semantic_filters.envs.obj_env import OBJEnv
     register_env(OBJEnv)
     print(">> Successfully registered Adding OBJEnv!")
 except ImportError:
