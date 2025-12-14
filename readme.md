@@ -9,5 +9,5 @@ This repository contains research code for simulating and visualising semantic c
 
 
 ## TODO
-1. make proper readme
-2. add vision pipeline and llm code here
+1. add paper description to readmen
+2. add vision pipeline and llm semantic constraints inferencing
